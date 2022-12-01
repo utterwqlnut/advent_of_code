@@ -1,6 +1,7 @@
 import sys
-sys.stdin = open("calories.in", "r")
+# Uses file io
 def main():
+    sys.stdin = open("calories.in", "r")
     calories=[0]
     while True:
         try:
